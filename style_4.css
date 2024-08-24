@@ -1,0 +1,157 @@
+/* 字體引用  */
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    margin: 0 auto;
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  font-family:"castoro", serif ;
+  line-height: 1.5;
+  font-size: 24px; 
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  border-bottom: 3px solid #000;
+}
+
+.container{
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.img_center{
+  text-align: center;
+}
+
+.banner_title{
+  font-size: 128px;
+  letter-spacing: 0.12em;
+  }
+
+.banner_context{
+  background: #EFEFEF;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.w-50{
+  width:50%;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.h3_title{
+  width: 636px;
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: solid 3px;
+  margin-bottom: 16px;
+}
+
+.h3_content{
+  width: 636px;
+  font-size: 24px;
+}
+
+.h4_content{
+  font-size: 20px;
+  color: #949494;
+}
+
+
+.mb-8{
+  margin-bottom: 8px;
+}
+
+.mb-12{
+  margin-bottom: 12px;
+}
+
+
+.mb-16{
+  margin-bottom: 16px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+.mb-160{
+  margin-bottom: 160px;
+}
+
+.mr-40{
+  margin-right: 40px;
+}
+
+.footer{
+  background: #000;
+  }
+
+.footer-list{
+  text-align: center;
+  padding: 64px 0;
+}
+
+.footer-list li{
+  display: inline;
+}
